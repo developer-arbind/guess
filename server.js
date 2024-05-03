@@ -50,7 +50,8 @@ app.get("/:name", async (Req, Res) => {
     });
     await data.save();
     return Res.status(200).json({
-      message: "",
+      message:
+        "I chose you because I genuinely like you. Your personality is unique, and I enjoy our conversations. You're not like anyone else, and that's what makes you special to me. Please don't put yourself down by calling yourself 'dumb'—I find you intelligent and engaging. Let's focus on our connection and building a positive relationship together(friendzone), I think you are like my stereotype.",
     });
   }
   return Res.status(404).json({

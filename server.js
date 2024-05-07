@@ -62,25 +62,27 @@ app.get("/:name", async (Req, Res) => {
     await data.save();
     return Res.status(200).json({
       code: 444,
-      message: `Hey, Hello My name is Arbind. Just an ordinary student,
-with an IQ of 144. (INTJ-T)
-I have had no friends till now. So I just want to create some memories with someone who can understand me, and I can do so too. We have only had 11 months.
-I just can't be someone's friend if she or he has a girlfriend or boyfriend.
-
-(I am not comfortable in it)
-So leave these things; I just don't like them.
-I know I am sending it to you because I really like you. It's so rare for me to talk to anyone or give them such valuable time. If you receive it, you are lucky.
-I know you may have some interest in your boyfriend. But I will be sure that, analyzing everything you said and your behavior, it won't seem that you have any feelings for him.
-You just don't know what a relationship means. it not about you are the GF and he is  BF. even as friends. You understand what it means.
-So I just wanted to say, if you can't leave your boyfriend, I am just continuing to be alone and happy. I am not forcing you to do anything at all. If you have even a little feeling for me, just let me know. Then I will know I chose the right person. Just listen to your mind and heart and make the decision. If you want to experience something big and such as what you saw in a movie, Just be with me, and let's do something big together. I know you don't know anything about programming, but I'm not a finding a programmer, just the type of person with the mindset. (we have 11 months.)
-Sorry for that unexpected behavior where I held your hand. I actually just don't want to see you fall from that. but after all, you proved me wrong. and btw it's may uncomfortable for you. (sorry 2x)
-I don't say sorry; it's also super rare that I am saying it to someone.
-So just leave your boyfriend He may waste your time, for sure.
-Otherwise, I will not be there for you. Just go and enjoy with your BF. This is what I was saying.
-If you understand my words, then just say what you have in mind. Say whatever you won't; I don't care much. Don't think I get hurt or something.
-I'm waiting for your reply. I just want to hear your real thoughts. *be honest*
-
-I know just everything what is a lie and what is a truth.`,
+      message: `And probably u are judging me just because of that rumors: 
+If that would be the case. I have never sent a message to you. or never even talk to you.
+but I did.
+cause u r thinking that if I would get someone better I will leave the previous one:
+Nah, If you don't had in any relation, who would you leave the previous one.?? just don't be in relationships.
+but my intentions were never that and nor it will be even tho I am feeling bad to say u no cause I really don't want to hurt someone's feeling:
+Okay, if someone's get hurt by it.. I probably being A villian here.. 
+(I am just trying to protect you and makesure you are going right).
+and agar If we even started a relationship it's not gonna work becoz I don't think u can handle me i have a lot of drama which would surely annoy you so sorry🙏🏻:
+I don't want put you in my life.. so good is to be a friend nothing more of it. In our whole conversation. I have never admire anykind of this things.. ??why you just thinking of it?? can you give a reason of it? (required)
+I just want, that you should not be in any relationship. that's my whole point.
+and I have wasted a lot your time probably:
+No, probably I wasted my own, you just don't guilt of it.
+so u don't need to make a web app it will surely take time  and I don't want to  disturb you more just stay when the school ends to continue this as a friend:
+No, but i don't want to talk to you anymore. if you can't able understand my words. there is no such point to talk to you. i expressed my all feelings to you. but even you don't understand how to reply.
+I expecting you to say something your mind wants to say, you just ignoring that texts for sure.
+or just leave to end this here:
+I will probably. I shall talk to you wednesday and I will make sure if I should continue or not. that might our last conversation.
+by have a gud sleep and never say that again that I am gonna to rest innn piece by:
+I have now nothing to say, so i am expecting you to say something.. I forcing my energy here means I make sure, my words don't hurt you.
+you should be more mature now. we are not kids anymore..`,
     });
   }
   return Res.status(404).json({
